@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Regístrate</title>
+		<link href="efectos03.css" rel="stylesheet" type="text/css">
+		<script src="registrate_4_1.js" type="text/JavaScript"></script>
+	</head>
+	<body bgcolor="fbfbfd"><center>
+		<br><p class="titulo_3">Datos del comprador</p>
+		<table border="3" width="60%">
+			<form name="f_opera">
+				<tr>
+					<td align="center"><p class="titulo_3">Nombre(s)</p></td>
+					<td align="center"><input name="v1" type="text" class="campo" onclick="campo_v1()"><font color="red">*</font></td>
+				</tr>
+				<tr>
+					<td align="center"><p class="titulo_3">Primer apellido</p></td>
+					<td align="center"><input name="v2" type="text" class="campo" onclick="campo_v2()"><font color="red">*</font></td>
+				</tr>
+				<tr>
+					<td align="center"><p class="titulo_3">Segundo apellido</p></td>
+					<td align="center"><input name="suma" type="text" class="campo"></td>
+				</tr>
+				<tr>
+					<td align="center"><p class="titulo_3">Numero de teléfono</p></td>
+					<td align="center"><input name="resta" type="text" class="campo"></td>
+				</tr>
+				<tr>
+					<td align="center"><p class="titulo_3">Correo electrónico</p></td>
+					<td align="center"><input name="v3" type="text" class="campo" onclick="campo_v3()"><font color="red">*</font></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2">
+						<table width="100%">
+							<tr align="center">
+								<td width="50%">
+									<input name="b_ejecutar" type="button" class="boton" value="Enviar" onclick="ejecutar()">
+								</td>
+								<td width="50%">
+									<input name="b_reset" type="reset" class="boton" value="Reiniciar" style="background:red;">
+								</td>
+						</table>
+					</td>
+				</tr>
+			</form>
+		</table>
+	</center></body>
+</html>
